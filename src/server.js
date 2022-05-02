@@ -29,7 +29,7 @@ app.get("/task", async (req, res) =>{
     }
 });
 
-mongoose.connect("mongodb+srv://yohanateixeira:Yohana170301@express-mongodb.usgf9.mongodb.net/Express-Mongodb?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://yohanateixeira:3mGc637kDtaZatoD@express-mongodb.usgf9.mongodb.net/Express-Mongodb?retryWrites=true&w=majority")
     .then(()=>{
         console.log("Conectou no Banco!")
         app.listen(3000,() => console.log("Servidor Rodando!"))
