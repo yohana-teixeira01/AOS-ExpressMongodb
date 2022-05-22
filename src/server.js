@@ -57,7 +57,11 @@ app.get("/Extras", async (req, res) =>{
     }
 });
 
+<<<<<<< HEAD
 mongoose.connect(process.env.MONGO_URI)
+=======
+mongoose.connect("mongodb+srv://yohanateixeira:3mGc637kDtaZatoD@express-mongodb.usgf9.mongodb.net/Express-Mongodb?retryWrites=true&w=majority")
+>>>>>>> 0a30826650f01d666eb8f752c669da04199b2631
     .then(()=>{
         console.log("Conectou no Banco!")
         app.listen(3000,() => console.log("Servidor Rodando!"))
